@@ -1,0 +1,15 @@
+#include <AppBase.h>
+#include <Data.h>
+#include <DataFrame.h>
+#include <DataTreeWidgetItem.h>
+#include <DataVideoPlaylist.h>
+#include <Module.h>
+#include <ModuleWrapper.h>
+#include <ModuleWrapperGUI.h>
+#include <ModuleDescriptor.h>
+#include <ModuleGroup.h>
+#include <ModuleGroupGUI.h>
+#include <ModuleManager.h>
+#include <ModulePort.h>
+#include <SettingsDefs.h>
+#include <Stylesheet.h>
