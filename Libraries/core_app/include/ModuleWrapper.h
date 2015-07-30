@@ -87,6 +87,11 @@ public:
     virtual ~ModuleWrapper();
 
     /**
+     * @return the wrapped Module object.
+     */
+    virtual ModulePtr GetModule();
+
+    /**
      * @brief Init initializes the ModuleWrapper.
      *
      * @warning The default implementation allows only one input and one output

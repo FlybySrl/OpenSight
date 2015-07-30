@@ -156,7 +156,8 @@ CONFIG(debug, debug|release) {
 # Third party libraries configuration. ======================================= #
 
 isEmpty(LOCAL_LIBS_ROOT) {
-   THIRD_PARTY_LIBS_ROOT = $$PWD/3rdParty
+   unix: THIRD_PARTY_LIBS_ROOT = /mnt/server/Progetti/FLYSIGHT/COMMON_LIBS/3rdPartyBuild
+   windows: THIRD_PARTY_LIBS_ROOT = Z:/Progetti/FLYSIGHT/COMMON_LIBS/3rdPartyBuild
 } else {
    THIRD_PARTY_LIBS_ROOT = $$LOCAL_LIBS_ROOT
 } # end isEmpty(LOCAL_LIBS_ROOT)
