@@ -3,6 +3,12 @@
 
 #ifdef USE_EIGEN
 
+#ifdef __ANDROID__
+#ifdef _X
+#undef _X
+#endif // _X
+#endif // __ANDROID__
+
 /* Eigen includes. ************************************************************/
 #include <Eigen/Dense>
 #include <Eigen/Sparse>

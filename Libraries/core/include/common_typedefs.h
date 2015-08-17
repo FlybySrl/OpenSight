@@ -132,7 +132,9 @@ union ValueUint64
 #define MM_TO_INCHES(x)     (x / 25.4)
 #define INCHES_TO_MM(m)     (x * 25.4)
 
+#ifndef INFINITY
 #define INFINITY    std::numeric_limits<double>::infinity()
+#endif
 
 inline bool FuzzyCompare(double p1, double p2)
 {
@@ -169,6 +171,7 @@ inline bool FuzzyIsNull(float d)
 #define MAP_VALUE(iterator) (iterator->second)
 
 #ifdef __unix
+#ifndef __ANDROID__
 /* Definition of std::next and std::prev functions is not defined. */
 namespace std
 {
@@ -191,6 +194,7 @@ ForwardIt prev(const ForwardIt it,
     return nit;
 }
 } // end namespace std.
+#endif // __ANDROID__
 #endif // __unix
 
 #define FORALL(container, it) \

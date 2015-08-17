@@ -150,6 +150,14 @@ isEmpty(FLYSIGHT_DEPEND) {
 
             LIBS *= -l$$join(fLib,,,d)
 
+            equals (TEMPLATE, app) {
+               equals (fLib, core_license) {
+#                  Doesn't add the library
+               } else {
+                  android: ANDROID_EXTRA_LIBS *= $$PWD/$$LIB_PATH/$$PATH_SUFFIX/$$join(fLib,,lib,d.so)
+               }
+            }
+
          } else {
             unix {
                exists($$PWD/$$LIB_PATH/$$PATH_SUFFIX/$$join(fLib,,lib,.a)) {
@@ -164,6 +172,15 @@ isEmpty(FLYSIGHT_DEPEND) {
             }
 
             LIBS *= -l$$fLib
+
+
+            equals (TEMPLATE, app) {
+               equals (fLib, core_license) {
+#                  Doesn't add the library
+               } else {
+                  android: ANDROID_EXTRA_LIBS *= $$PWD/$$LIB_PATH/$$PATH_SUFFIX/$$join(fLib,,lib,.so)
+               }
+            }
 
          } # end CONFIG(debug, debug|release)
 

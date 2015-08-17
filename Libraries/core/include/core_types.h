@@ -27,6 +27,11 @@
 #include <string>
 #include <vector>
 
+#ifdef __ANDROID__
+#include <atomic>
+#include <unistd.h>
+#endif
+
 #include <assert.h>
 #include <errno.h>
 #include <time.h>

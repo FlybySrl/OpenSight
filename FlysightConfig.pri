@@ -20,8 +20,10 @@ CONFIG(debug, debug|release) {
    windows: QMAKE_LFLAGS *= /INCREMENTAL:NO
 } else {
    # Enables parallel operations.
-   windows:QMAKE_CXXFLAGS_RELEASE *= /openmp
-   DEFINES *= USE_OPENMP
+   equals(MACHINE_VERSION, x86) {
+      windows:QMAKE_CXXFLAGS_RELEASE *= /openmp
+      DEFINES *= USE_OPENMP
+   }
 }
 
 exists($$PWD/UserConfig.pri) {
