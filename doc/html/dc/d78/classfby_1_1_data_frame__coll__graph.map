@@ -1,0 +1,5 @@
+<map id="fby::DataFrame" name="fby::DataFrame">
+<area shape="rect" id="node2" href="$d3/d94/classfby_1_1_data.html" title="Base class that defines the interface to exchange shared data among different Modules using the outpu..." alt="" coords="5,96,80,123"/>
+<area shape="rect" id="node4" href="$da/df3/classfby_1_1_frame.html" title="The Frame class wraps the data to define a video frame This class holds the following data: ..." alt="" coords="107,96,191,123"/>
+<area shape="rect" id="node5" href="$df/deb/classfby_1_1_metadata.html" title="The Metadata class contains the metadata of an image. Since this class does not depend upon any other..." alt="" coords="100,5,201,32"/>
+</map>

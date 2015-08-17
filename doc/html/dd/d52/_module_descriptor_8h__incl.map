@@ -1,0 +1,9 @@
+<map id="ModuleDescriptor.h" name="ModuleDescriptor.h">
+<area shape="rect" id="node2" href="$da/dfb/_module_wrapper_8h_source.html" title="ModuleWrapper.h" alt="" coords="229,80,352,107"/>
+<area shape="rect" id="node3" href="$dd/d7a/_module_8h.html" title="Contains the definition of the Module class that is the basic class of a Flysight application..." alt="" coords="199,155,273,181"/>
+<area shape="rect" id="node13" href="$d2/da7/_module_wrapper_g_u_i_8h_source.html" title="ModuleWrapperGUI.h" alt="" coords="292,229,439,256"/>
+<area shape="rect" id="node4" href="$de/d34/_module_port_8h.html" title="Defines the Port class that is the way to link different Modules. " alt="" coords="169,229,268,256"/>
+<area shape="rect" id="node5" href="$df/dc1/_data_8h.html" title="Contains the structures and methods to share data between different Modules through the output/input ..." alt="" coords="227,304,287,331"/>
+<area shape="rect" id="node6" href="$da/dcf/core__app__pch_8h_source.html" title="core_app_pch.h" alt="" coords="244,379,359,405"/>
+<area shape="rect" id="node8" href="$d9/d56/core__app__export_8h_source.html" title="core_app_export.h" alt="" coords="75,453,204,480"/>
+</map>

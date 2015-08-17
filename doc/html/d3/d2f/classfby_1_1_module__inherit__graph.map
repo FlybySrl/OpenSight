@@ -1,0 +1,4 @@
+<map id="fby::Module" name="fby::Module">
+<area shape="rect" id="node3" href="$db/d52/classfby_1_1_module_group.html" title="Collects and manages a set of Modules that share some common features. This class is a Module itself ..." alt="" coords="5,155,128,181"/>
+<area shape="rect" id="node4" href="$d4/d33/classfby_1_1_module_wrapper.html" title="The ModuleWrapper class is a Module itself and wraps another Module. This class is designed to manage..." alt="" coords="153,155,292,181"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="Data.h" name="Data.h">
+<area shape="rect" id="node2" href="$df/d46/_data_frame_8h_source.html" title="DataFrame.h" alt="" coords="6,80,103,107"/>
+<area shape="rect" id="node3" href="$db/d8c/_data_tree_widget_item_8h_source.html" title="DataTreeWidgetItem.h" alt="" coords="127,80,277,107"/>
+<area shape="rect" id="node4" href="$da/d80/_data_video_playlist_8h_source.html" title="DataVideoPlaylist.h" alt="" coords="303,80,439,107"/>
+<area shape="rect" id="node5" href="$de/d34/_module_port_8h.html" title="Defines the Port class that is the way to link different Modules. " alt="" coords="463,80,561,107"/>
+<area shape="rect" id="node6" href="$dd/d7a/_module_8h.html" title="Contains the definition of the Module class that is the basic class of a Flysight application..." alt="" coords="475,155,549,181"/>
+<area shape="rect" id="node7" href="$d0/dbe/_app_base_8h_source.html" title="AppBase.h" alt="" coords="335,229,421,256"/>
+<area shape="rect" id="node8" href="$d2/dd7/_module_group_8h_source.html" title="ModuleGroup.h" alt="" coords="509,453,619,480"/>
+<area shape="rect" id="node9" href="$d2/d96/_module_group_g_u_i_8h_source.html" title="ModuleGroupGUI.h" alt="" coords="498,304,629,331"/>
+<area shape="rect" id="node10" href="$da/dfb/_module_wrapper_8h_source.html" title="ModuleWrapper.h" alt="" coords="631,229,755,256"/>
+<area shape="rect" id="node11" href="$d9/dab/_module_descriptor_8h.html" title="Contains the declarations of the ModuleDescriptor class. " alt="" coords="654,304,788,331"/>
+<area shape="rect" id="node12" href="$d7/dd1/_module_manager_8h.html" title="Contains the data and methods to manage the Modules compiled as shared libraries. ..." alt="" coords="629,379,755,405"/>
+</map>
